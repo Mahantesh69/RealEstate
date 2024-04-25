@@ -1,0 +1,23 @@
+First install everything from tailwinfd css 
+
+npm i react-icons
+
+npm init -y -> api package.json
+
+npm i express
+
+npm i mongoose
+
+npm i nodemon
+
+npm install @reduxjs/toolkit react-redux
+
+npm i cookie-parser => used to verifytoken or user will updating
+
+mv .git ../
+
+
+git init
+git add .
+git commit -m
+git commit - m "install"
