@@ -2,7 +2,7 @@ First install everything from tailwinfd css
 
 npm i react-icons
 
-npm init -y -> api package.json
+npm init -y -> api package.json 
 
 npm i express
 
@@ -14,6 +14,25 @@ npm install @reduxjs/toolkit react-redux
 
 npm i cookie-parser => used to verifytoken or user will updating
 
+npm i -D @tailwindcss/line-clamp => this helps in truncate of lines
+
+npm i swiper
+import {swiper, swiperSlide} from 'swiper/react'
+import swiperCore from 'swiper'
+import {Navigation} from 'swiper/modules'
+import 'swiper/css/bundle;
+
+
+parseInt => Using this we can add the limit ex: parseInt(req.query.limit) || 10;
+
+$in => search inside database
+
+$regex => search functionality for mongoDB ex if i search de from modern 
+
+$options :'i' => means dont care uppercase or lowercase
+
+npm i  -> is used to install again the packages
+
 mv .git ../
 
 
@@ -21,3 +40,10 @@ git init
 git add .
 git commit -m
 git commit - m "install"
+
+
+This to be done in firebase storage it will be only allow read we have to change
+//Firebase storage
+  //allow read;
+  // allow write:if request.resource.size < 2*1024*1024 
+  // && request.resource.contentType.matches('image/.*')
